@@ -4,7 +4,7 @@ import { UsersService } from "./users.service";
 import { User } from "./user.interface";
 
 
-@Controller('user')
+@Controller('users')
 export class UsersController {
     constructor(private readonly usersService: UsersService) { }
     @Post()
